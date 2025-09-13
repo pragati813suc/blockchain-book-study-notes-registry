@@ -1,0 +1,16 @@
+[package]
+name = "Blockchain-based-study-Notes-Registry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule="0x9e1c96221e9b4fc74e7775daa67df3bd7ffb995393feeeef1df1e16330e42f82"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
